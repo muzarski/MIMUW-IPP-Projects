@@ -1,3 +1,0 @@
-IPP-Polynomials
-
-Project provides an implementation of operations on polynomials of several variables.
