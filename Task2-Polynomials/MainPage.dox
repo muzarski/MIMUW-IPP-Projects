@@ -1,0 +1,34 @@
+/**
+@mainpage Dokumentacja zadania wielomiany
+
+### Treść zadania
+
+Uwaga: aktualna treść zadania znajduje się w [Moodle](https://moodle.mimuw.edu.pl).
+
+### Opis programu
+
+Tegoroczne duże zadanie polega na zaimplementowaniu operacji na wielomianach
+rzadkich wielu zmiennych.
+
+---Kalkulator---
+
+Dostępne operacje kalkulatora:
+- ZERO : wstawia na stos wielomian równy zero,
+- IS_COEFF : sprawdza czy wielomian ze szczytu stosu jest współczynnikiem,
+- IS_ZERO : sprawdza czy wielomian ze szczytu stosu jest równy zero,
+- CLONE : wstawia na stos kopię wielomianu ze szczytu,
+- ADD : dodaje dwa wierzchnie wielomiany, usuwa je ze stosu i wstawia na stos ich sumę,
+- MUL : mnoży dwa wierzchnie wielomiany, usuwa je ze stosu i wstawia na stos ich iloczyn,
+- NEG : neguje wielomian ze szczytu stosu,
+- SUB : odejmuje od wielomianu ze szczytu wielomian pod szczytem, usuwa je i wstawia na wierzchołek stosu różnicę,
+- IS_EQ : sprawdza czy dwa wierzchnie wielomiany są równe oraz wypisuje wynik na standardowe wyjście,
+- DEG - wypisuje na standardowe wyjście stopień wielomianu ze szczytu,
+- DEG_BY idx : wypisuje na standardowe wyjście stopień wielomianu ze szczytu ze względu na zmienną 'idx',
+- AT x : wylicza wartośc wielomianu w punkcie 'x', usuwa wielomian ze stosu i wstawia na stos wynik operacji,
+- PRINT : wypisuje na standardowe wyjście wielomian ze szczytu stosu,
+- POP : usuwa wielomian ze szczytu stosu.
+
+Wielomiany wczytywane są ze standardowego wejścia. Wielomian może być liczbą całkowitą lub sumą par (współczynnik, wykładnik), gdzie 
+współczynnik jest wielomianem, a wykładnik liczbą całkowitą.
+
+*/
